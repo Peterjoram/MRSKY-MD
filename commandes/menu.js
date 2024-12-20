@@ -33,36 +33,36 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭──────────────────❂
-┊❂╭───*ANYWAY-MD*────❂
+╭──────────────────🌟
+┊❂╭───*MRSKY-MD*────❂
 ┊✺┊ *User* : ${s.OWNER_NAME}
 ┊✺┊ *Mode* : ${mode}
 ┊✺╰───────────────❂
 ┊✺┊ *Time* : ${temps}  
 ┊✺┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┊❂╰───────────────❂
-╰──────────────────❂ \n\n`;
+╰──────────────────🌟 \n\n`;
  
     let menuMsg=`  
-  **ANYWAY MD COMMANDS*
+  **MRSKY MD COMMANDS*
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────❂* *${cat}* *❂*`;
+        menuMsg += `*╭────🌟* *${cat}* *🌟*`;
         for (const cmd of coms[cat]) {
             menuMsg += `  
 *┊❂* ${cmd}`;
         }
         menuMsg += `
-*╰═════════════❂* \n`
+*╰═════════════🌟* \n`
     }
 
     menuMsg += `
 ◇            ◇
 *—————✺✺✺✺—————*
 
-  *ANYWAY-MD*                                         
-*╰═════════════❂*
+  *MRSKY-MD*                                         
+*╰═════════════🌟*
 `;
 
    var lien = mybotpic();
@@ -79,7 +79,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*Ibrahim-tech*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*Mrsky-tech*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
