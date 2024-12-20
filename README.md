@@ -31,7 +31,7 @@
  
 
 
-<a href="https://veno-session.onrender.com/pair"><img title="PAIR CODE" src="https://img.shields.io/badge/PAIR CODE 2-h?color=green&style=for-the-badge&logo=msi"></a>
+<a href="https://veno-session.onrender.com/pair"><img title="PAIR CODE" src="https://img.shields.io/badge/PAIR CODE 1-h?color=green&style=for-the-badge&logo=msi"></a>
  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
