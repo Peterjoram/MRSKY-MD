@@ -34,25 +34,21 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *ANYWAY MD IMPORTANT INFO* 
-❒───────────────────❒
+      *MRSKY MD IMPORTANT INFO* 
+🌟───────────────────🌟
 *GITHUB LINK*
-> https://github.com/anywaytech2/ANYWAY-MD-V1
+> https://github.com/Peterjoram/MRSKY-MD
 
-*WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09
-⁠
-╭───────────────────❒
-│❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Mr anyway*
-│❒⁠⁠⁠⁠ *DEV2* : *Baraka Bega*
-⁠⁠⁠⁠╰───────────────────❒
+╭───────────────────🌟
+│🌟 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│🌟 *DEV* : *Mrsky Md*
+⁠⁠⁠⁠╰───────────────────🌟
   `;
     
 let menuMsg = `
      *𝘼𝙉𝙔𝙒𝘼𝙔 𝙏𝙀𝘾𝙃*
 
-❒────────────────────❒`;
+🌟────────────────────🌟`;
 
    var lien = mybotpic();
 
