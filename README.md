@@ -2,20 +2,20 @@
   
 
 
-<p align="center">                                                  𝗔𝗡𝗬𝗪𝗔𝗬 𝗠𝗗-𝗩𝟭 
+<p align="center">                                                  MRSKY-MD
   
 
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09">
-    <img alt=Support height="390" src="https://i.imgur.com/hEfoYiL.jpeg"> 
+    <img alt=Support height="390" src="https://telegra.ph/file/e401d0a038f615c73871b.jpg"> 
     </p>
  
  
  
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+ANYWAY-MD+MADE+IN+TANZANIA+🇹🇿♥️🇹🇿" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+MRSKY-MD+MADE+IN+TANZANIA+🇹🇿♥️🇹🇿" alt="Typing SVG" /></a>
 
 
 
@@ -25,7 +25,7 @@
 #### SETUP 
 
 
-[`FORK`](https://github.com/SIMON32883/MR-ANYWAY-MD/fork)
+[`FORK`](https://github.com/Peterjoram/MRSKY-MD/fork)
 
 
  
@@ -45,7 +45,7 @@
 
 2. `If You Have a Heroku Account`
 
-  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/SIMON32883/MR-ANYWAY-MD"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Peterjoram/MRSKY-MD"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 #### DEPLOY ON RENDER 
