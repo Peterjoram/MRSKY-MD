@@ -34,23 +34,22 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *ANYWAY MD IMPORTANT INFO* 
+      *MRSKY MD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/SIMON32883/ANYWAY-MD-V1
+> https://github.com/Peterjoram/MRSKY-MD
 
-*WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09
+*GOOD DAY*
+> 😊😊😊😊
 ⁠
-╭───────────────────❒
+╭───────────────────🌟
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *MR ANYWAY*
-│❒⁠⁠⁠⁠ *DEV2* : *Ibrahim Adams*
-⁠⁠⁠⁠╰───────────────────❒
+│❒⁠⁠⁠⁠ *DEV1* : *MRSKY*
+⁠⁠⁠⁠╰───────────────────🌟
   `;
     
 let menuMsg = `
-     *ANYWAYTECH1*
+     *MRSKYTECH*
 
 ❒────────────────────❒`;
 
