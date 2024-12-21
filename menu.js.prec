@@ -33,9 +33,9 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     
     
       
-    ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
+    ╚═════ 🌟🌟 ࿇ 🌟🌟 ═════╝*/
     /* menuMsg+=`
-   ╔════ ▓▓ ࿇ ▓▓ ════╗
+   ╔════ 🌟🌟 ࿇ 🌟🌟 ════╗
    
    ||
    ||     Préfixe : ${s.prefixe}
@@ -46,7 +46,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
    ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
    ||  Développeurs : Djalega++||Luffy
    ||
-   ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
+   ╚════ 🌟🌟 ࿇ 🌟🌟 ════╝`;*/
     menuMsg += `
 ╔════---------
 ║    Préfixe : ${s.PREFIXE}
@@ -74,7 +74,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
+        console.log("🥵🥵 Menu erreur " + e); 
         repondre("🥵🥵 Menu erreur " + e);
     }
 });
@@ -84,7 +84,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 module.exports.commande =()=>
   {
     var nomCom=["menu","m","fonctions"];
-    var reaction="🐞"
+    var reaction="🐦"
     var categorie="General"
 
 
