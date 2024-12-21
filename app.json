@@ -1,9 +1,9 @@
 {
-  "name":"ANYWAY-MD-V1",
-  "description":"Best whatsapp bot developed by mr anyway ",
+  "name":"MRSKY-MD",
+  "description":"Best whatsapp bot developed by mr mrsky ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/G5u9emw.jpeg",
-  "repository":"https://github.com/SIMON32883/MR-ANYWAY-MD",
+  "logo":"httpsyusuuuj",
+  "repository":"https://github.com/Peterjoram/MRSKY-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -86,14 +86,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Mr Anyway"
+    "value": "Mrsky md"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255678892560"
+    "value": "255753033342"
   },
     "WARN_COUNT":
   {
