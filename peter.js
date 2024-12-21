@@ -84,7 +84,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Bmw-Md', "safari", "1.0.0"],
+            browser: ['Mrsky-Md', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -112,7 +112,7 @@ setTimeout(() => {
         };
         const zk = (0, baileys_1.default)(sockOptions);
         store.bind(zk.ev);
-        if (conf.ANYWAY_MD === "yes") {
+        if (conf.MRSKY_MD === "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
@@ -121,7 +121,7 @@ setTimeout(() => {
                 try {
                     const adams = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
 
-                    if (adams) {
+                    if (Joram) {
                         // React to the status with a green heart
                         await zk.sendMessage(message.key.remoteJid, {
                             react: {
@@ -129,7 +129,7 @@ setTimeout(() => {
                                 text: "❤",
                             },
                         }, {
-                            statusJidList: [message.key.participant, adams],
+                            statusJidList: [message.key.participant, Joram],
                         });
 
                         // Introduce a short delay between each reaction to prevent overflow
@@ -198,7 +198,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tANYWAY MD ONLINE");
+            console.log("\tMRSKY MD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
