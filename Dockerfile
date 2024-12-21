@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/SIMON32883/MR-ANYWAY-MD  /root/ToshTech
+RUN git clone https://github.com/Peterjoram/MRSKY-MD  /root/ToshTech
 WORKDIR /root/toshtech/
 
 
@@ -21,5 +21,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "ibrahim.js"]
+CMD ["npm", "run" , "peter.js"]
 
